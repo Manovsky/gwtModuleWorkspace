@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+  "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to='it7_gwt'>
+
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name='com.google.gwt.user.theme.clean.Clean' />
+
+	<inherits name='garandeau.gwt.it7.module.it7_menu.It7_menu' />
+	<inherits name='garandeau.gwt.it7.module.toto.Toto' />
+
+	<inherits name='garandeau.gwt.it7.module.intraModule.intraModule' />
+	<inherits name='garandeau.gwt.it7.module.jerseyModule.JerseyModule' />
+
+	<entry-point class='garandeau.gwt.it7.main.client.IT7_GWT' />
+
+	<source path='client' />
+	<source path='shared' />
+
+	<add-linker name="xsiframe" />
+</module>

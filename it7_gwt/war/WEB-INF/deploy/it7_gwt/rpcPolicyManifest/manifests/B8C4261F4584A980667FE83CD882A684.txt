@@ -1,0 +1,2 @@
+serviceClass: garandeau.gwt.it7.module.toto.client.GreetingService
+path: 8197CFB69FE3349579F2599693072EE1.gwt.rpc

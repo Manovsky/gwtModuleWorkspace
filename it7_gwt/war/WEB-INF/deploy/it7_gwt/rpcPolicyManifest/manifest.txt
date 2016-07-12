@@ -1,0 +1,4 @@
+# Module it7_gwt
+# RPC service class, partial path of RPC policy file
+garandeau.gwt.it7.main.client.GreetingService, 2E5C945E705765FBB0D0D27B52ADCDCE.gwt.rpc
+garandeau.gwt.it7.module.toto.client.GreetingService, 8197CFB69FE3349579F2599693072EE1.gwt.rpc

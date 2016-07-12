@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:gd="urn:import:com.garandeau.components.client">
+	<g:HTMLPanel>
+		<m:MaterialNavBar backgroundColor="blue" activates="mysidebar">
+			<m:MaterialNavSection textAlign="RIGHT">
+				<m:MaterialTooltip text="Starter">
+					<m:MaterialLink iconType="WHATSHOT" textColor="white" />
+				</m:MaterialTooltip>
+				<m:MaterialTooltip text="Starter">
+					<m:MaterialLink iconType="WHATSHOT" textColor="white" />
+				</m:MaterialTooltip>
+				<m:MaterialTooltip text="Starter">
+					<m:MaterialLink iconType="WHATSHOT" textColor="white" />
+				</m:MaterialTooltip>
+			</m:MaterialNavSection>
+		</m:MaterialNavBar>
+
+		<m:MaterialSideNav width="300" m:id="mysidebar"
+			type="FIXED" closeOnClick="false">
+			<m:MaterialNavBrand href="#Test">Title</m:MaterialNavBrand>
+			<m:MaterialLink iconType="FILTER_1" iconPosition="LEFT"
+				textColor="blue" text="App1" ui:field="btnApp1" waves="DEFAULT" />
+			<m:MaterialLink iconType="FILTER_2" iconPosition="LEFT"
+				textColor="grey" text="App2" ui:field="btnApp2" waves="DEFAULT" />
+			<m:MaterialLink iconType="FILTER_3" iconPosition="LEFT"
+				textColor="grey" text="App3" ui:field="btnApp3" waves="DEFAULT" />
+
+			<!-- <gd:GdDangerButton text="DangerBtn"></gd:GdDangerButton> -->
+
+		</m:MaterialSideNav>
+	</g:HTMLPanel>
+</ui:UiBinder> 

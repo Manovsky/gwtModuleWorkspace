@@ -1,0 +1,2 @@
+serviceClass: garandeau.gwt.it7.main.client.GreetingService
+path: 2E5C945E705765FBB0D0D27B52ADCDCE.gwt.rpc

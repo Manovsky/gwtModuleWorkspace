@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/aopalliance-repackaged-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/asm-debug-all-5.0.4.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/hk2-api-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/hk2-locator-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/hk2-utils-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/javax.inject-2.4.0-b34.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-client.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-common.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-guava-2.23.1.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/jersey-server.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="/ExternalResource/jar/jarJersey/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
